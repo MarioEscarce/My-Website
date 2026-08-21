@@ -898,3 +898,10 @@ body .site-header .nav-links a {
     margin-top: 48px;
   }
 }
+
+/* Fix hero layout on intermediate tablet/foldable widths */
+@media (min-width: 621px) and (max-width: 900px) {
+  .hero.section-grid {
+    grid-template-columns: 1fr;
+  }
+}
