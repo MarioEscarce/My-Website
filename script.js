@@ -8,6 +8,7 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 
+
 const translations = {
   en: {
     nav_about: 'About',
@@ -33,8 +34,6 @@ const translations = {
 
     about_label: 'About',
     about_title: 'About me',
-    about_p1: 'My background brings together computer science, game design, and digital arts. I completed my PhD at Lancaster University and later worked as a postdoctoral researcher at UC Santa Cruz, where I contributed to NSF-funded research on serious games and community resilience. I’m interested in how interactive systems shape creativity, learning, collaboration, and decision-making.',
-    about_p2: '',
 
     research_label: 'Research',
     research_title: 'Research interests',
@@ -56,6 +55,7 @@ const translations = {
     project3_text: 'A virtual-reality musical instrument that uses visual interaction and meta-interactivity to support non-experts in creating coherent musical pieces.',
     read_paper: 'Read paper ↗',
     view_game: 'View game ↗',
+    watch_video: 'Watch video ↗',
 
     publications_label: 'Selected publications',
     publications_title: 'Recent work',
@@ -64,8 +64,6 @@ const translations = {
     pub_placeholder_venue: 'Conference or Journal Name',
     pub_another_title: 'Another selected publication',
     venue_name: 'Venue Name',
-
-    quote: '“I am interested not only in whether an interactive system works, but in what kinds of <em>thinking and interaction</em> it makes possible.”',
 
     contact_label: 'Contact',
     contact_title: 'Any questions or interest in collaboration?'
@@ -95,8 +93,6 @@ const translations = {
 
     about_label: 'Sobre',
     about_title: 'Sobre mim',
-    about_p1: 'Minha trajetória reúne ciência da computação, game design e artes digitais. Fiz meu PhD na Lancaster University e depois atuei como pesquisador de pós-doutorado na UC Santa Cruz, onde contribuí para pesquisas financiadas pela NSF sobre serious games e resiliência comunitária. Tenho interesse em como sistemas interativos moldam criatividade, aprendizagem, colaboração e tomada de decisão.',
-    about_p2: '',
 
     research_label: 'Pesquisa',
     research_title: 'Três eixos conectam a maior parte do meu trabalho.',
@@ -118,6 +114,7 @@ const translations = {
     project3_text: 'Um instrumento musical em realidade virtual que usa interação visual e meta-interatividade para apoiar não especialistas na criação de peças musicais coerentes.',
     read_paper: 'Ler artigo ↗',
     view_game: 'Ver jogo ↗',
+    watch_video: 'Assistir vídeo ↗',
 
     publications_label: 'Publicações selecionadas',
     publications_title: 'Trabalhos recentes',
@@ -127,82 +124,78 @@ const translations = {
     pub_another_title: 'Outra publicação selecionada',
     venue_name: 'Nome do evento ou periódico',
 
-    quote: '“Tenho interesse não apenas em saber se um sistema interativo funciona, mas em que tipos de <em>pensamento e interação</em> ele torna possíveis.”',
-
     contact_label: 'Contato',
     contact_title: 'Dúvidas ou interesse em colaboração?'
   }
 };
+
 
 const toggle = document.getElementById('lang-toggle');
 let currentLang = localStorage.getItem('site-language') || 'en';
 
 function applyLanguage(lang) {
   currentLang = lang;
+
   document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+
   document.querySelectorAll('[data-i18n]').forEach((el) => {
     const key = el.dataset.i18n;
-    if (translations[lang][key] !== undefined) el.textContent = translations[lang][key];
+
+    if (translations[lang][key] !== undefined) {
+      el.textContent = translations[lang][key];
+    }
   });
+
   document.querySelectorAll('[data-i18n-html]').forEach((el) => {
     const key = el.dataset.i18nHtml;
-    if (translations[lang][key] !== undefined) el.innerHTML = translations[lang][key];
+
+    if (translations[lang][key] !== undefined) {
+      el.innerHTML = translations[lang][key];
+    }
   });
+
   document.querySelectorAll('[data-lang-label]').forEach((el) => {
     el.classList.toggle('active', el.dataset.langLabel === lang);
   });
-  toggle.setAttribute('aria-label', lang === 'en' ? 'Mudar para português' : 'Switch to English');
+
+  toggle.setAttribute(
+    'aria-label',
+    lang === 'en' ? 'Mudar para português' : 'Switch to English'
+  );
+
   localStorage.setItem('site-language', lang);
 }
 
-toggle.addEventListener('click', () => applyLanguage(currentLang === 'en' ? 'pt' : 'en'));
+
+toggle.addEventListener('click', () => {
+  applyLanguage(currentLang === 'en' ? 'pt' : 'en');
+});
+
 applyLanguage(currentLang);
 
-/* v22 — rich About EN/PT follows the site's actual <html lang> state. */
+
+/* Keep the richer About section synchronized with the selected language. */
+
 function syncRichAboutLanguage() {
-  const lang = (document.documentElement.lang || "en").toLowerCase();
-  const isPt = lang.startsWith("pt");
-  const en = document.querySelector(".about-en");
-  const pt = document.querySelector(".about-pt");
+  const lang = (document.documentElement.lang || 'en').toLowerCase();
+  const isPt = lang.startsWith('pt');
+
+  const en = document.querySelector('.about-en');
+  const pt = document.querySelector('.about-pt');
+
   if (en) en.hidden = isPt;
   if (pt) pt.hidden = !isPt;
 }
-document.addEventListener("DOMContentLoaded", () => {
+
+
+document.addEventListener('DOMContentLoaded', () => {
   syncRichAboutLanguage();
 
-  // React to the site's language buttons.
-  document.querySelectorAll("[data-lang], .lang-toggle button, .language-toggle button").forEach(el => {
-    el.addEventListener("click", () => setTimeout(syncRichAboutLanguage, 0));
-  });
-
-  // Also react whenever the existing translator changes <html lang>.
-  new MutationObserver(syncRichAboutLanguage).observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["lang"]
-  });
-});
-
-/* v23 — Portuguese copy cleanup. */
-function syncPortugueseLabels() {
-  const isPt = (document.documentElement.lang || "en").toLowerCase().startsWith("pt");
-  if (!isPt) return;
-
-  document.querySelectorAll('[data-i18n="watch_video"]').forEach(el => {
-    el.textContent = "Assistir vídeo ↗";
-  });
-
-  document.querySelectorAll('[data-i18n="cv"], [data-i18n="cv_button"], [data-i18n="hero_cv"]').forEach(el => {
-    el.textContent = "Ver CV curto ↗";
-  });
-
-  const contact = document.querySelector('[data-i18n="contact_title"]');
-  if (contact) contact.textContent = "Dúvidas ou interesse em colaboração?";
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  syncPortugueseLabels();
-  new MutationObserver(syncPortugueseLabels).observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["lang"]
-  });
+  new MutationObserver(syncRichAboutLanguage).observe(
+    document.documentElement,
+    {
+      attributes: true,
+      attributeFilter: ['lang']
+    }
+  );
 });
