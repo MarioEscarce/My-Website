@@ -865,3 +865,36 @@ body .site-header .nav-links a {
     grid-row: auto;
   }
 }
+
+/* Fix for intermediate tablet / foldable screens */
+@media (min-width: 700px) and (max-width: 1200px) {
+
+  .hero {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-main {
+    width: 100%;
+    max-width: none;
+  }
+
+  .hero h1 {
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .hero-actions {
+    width: auto;
+  }
+
+  .hero-card {
+    width: 100%;
+    margin-top: 48px;
+  }
+}
