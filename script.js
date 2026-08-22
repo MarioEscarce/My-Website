@@ -113,7 +113,7 @@ const translations = {
     download_cv: 'Ver CV curto ↗',
     your_photo: 'sua<br>foto',
 
-    currently: 'Atualmente',
+    currently: 'Áreas',
     position_placeholder: 'Jogos · IHC · Artes Digitais',
 
     based_in: 'Localização',
