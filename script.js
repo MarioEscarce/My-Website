@@ -62,7 +62,7 @@ const translations = {
 
     project1_type: 'Serious Games · HCI · Discourse Analysis',
 
-    project1_title: 'Climate Resilience · Discourse Analysis',
+    project1_title: 'Discourse Analysis',
 
     project1_text: 'Research on how player discourse, negotiation, and shared decision-making unfold in serious games for wildfire preparedness and community resilience.',
 
