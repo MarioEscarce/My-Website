@@ -68,7 +68,7 @@ const translations = {
 
     project2_type: 'Art Game · Computational Creativity',
 
-    project2_text: 'An art game in which movement through a virtual environment implicitly contributes to the emergence of musical structures.',
+    project2_text: 'An art game in which the player\'s movement through a virtual environment contributes to the emergence of music.',
 
     project3_type: 'VR · Interactive Musical System',
 
