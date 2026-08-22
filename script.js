@@ -140,7 +140,7 @@ const translations = {
 
     projects_title: 'Artefatos de pesquisa, jogos e experimentos interativos.',
 
-    project1_type: 'Jogos Sérios · IHC · Resiliência Comunitária',
+    project1_type: 'Jogos Sérios · IHC · Aprendizagem Colaborativa',
     project1_title: 'Análise de Discurso',
     project1_text: 'Pesquisa sobre como discurso, negociação e tomada de decisão compartilhada emergem em jogos sérios voltados à preparação para incêndios florestais e à resiliência comunitária.',
 
