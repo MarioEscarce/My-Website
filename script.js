@@ -185,6 +185,11 @@ function applyLanguage(lang) {
   document.documentElement.lang =
     lang === 'pt' ? 'pt-BR' : 'en';
 
+  const lattesLink = document.getElementById('lattes-link');
+
+  if (lattesLink) {
+    lattesLink.hidden = lang !== 'pt';
+  }
 
   document.querySelectorAll('[data-i18n]').forEach((el) => {
 
