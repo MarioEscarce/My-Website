@@ -25,7 +25,7 @@ const translations = {
 
     hero_eyebrow: 'Research · Games · HCI · Interactive Systems',
 
-    hero_title: 'I study how games and interactive systems create new ways for people to <em>learn, collaborate, and make decisions together.</em>',
+    hero_title: 'I study how games and interactive systems can help people <em>collaborate, learn, and make decisions together.</em>',
 
     hero_text: 'Hi! I\'m Mario, I\'m a researcher in games, HCI, computational creativity, and digital arts. I\'m also a game developer, with a focus on 3D art creation, including modeling, rigging, and animation. I\'m very interested in music co-creation and the dynamic generation of assets for games and interactive experiences, and I\'m also interested in the ongoing dialogue between people and interactive systems, and in how these systems can foster creativity, learning, collaboration, and collective reasoning.',
 
