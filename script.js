@@ -105,7 +105,7 @@ const translations = {
 
     hero_eyebrow: 'Pesquisa · Jogos · IHC · Sistemas Interativos',
 
-    hero_title: 'Eu estudo como jogos e sistemas interativos podem criar novas formas de as pessoas <em>aprenderem, colaborarem e tomarem decisões juntas.</em>',
+    hero_title: 'Estudo como jogos e sistemas interativos podem apoiar <em>a colaboração, a aprendizagem e a tomada de decisões em conjunto.</em>',
 
     hero_text: 'Olá! Meu nome é Mário. Sou pesquisador nas áreas de games, IHC, criatividade computacional e artes digitais. Também sou desenvolvedor de jogos, com foco na criação de arte 3D, incluindo modelagem, rigging e animação. Tenho grande interesse em cocriação musical e na geração dinâmica de assets para jogos e experiências interativas, além do diálogo contínuo entre pessoas e sistemas interativos e de como esses sistemas podem estimular criatividade, aprendizagem, colaboração e raciocínio coletivo.',
 
