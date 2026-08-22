@@ -128,34 +128,27 @@ const translations = {
     research_title: 'Interesses de pesquisa',
 
     research_a_title: 'Mídia interativa e criatividade computacional',
-
     research_a_text: 'Como sistemas interativos, imersivos e generativos criam novas relações entre ação humana, expressão audiovisual e processos computacionais.',
 
     research_b_title: 'Jogos, aprendizagem e desafios sociais',
-
     research_b_text: 'Como jogos e experiências interativas podem apoiar aprendizagem, reflexão, preparação e engajamento com desafios sociais complexos.',
 
     research_c_title: 'Interação e raciocínio colaborativos',
-
     research_c_text: 'Como o design de sistemas interativos molda comunicação, coordenação, negociação e tomada de decisão coletiva.',
 
     projects_label: 'Projetos selecionados',
 
     projects_title: 'Artefatos de pesquisa, jogos e experimentos interativos.',
 
-    project1_type: 'Jogos sérios · IHC · Análise de discurso',
-
-    project1_title: 'Resiliência Climática · Análise de Discurso',
-
+    project1_type: 'Jogos Sérios · IHC · Resiliência Comunitária',
+    project1_title: 'Análise de Discurso',
     project1_text: 'Pesquisa sobre como discurso, negociação e tomada de decisão compartilhada emergem em jogos sérios voltados à preparação para incêndios florestais e à resiliência comunitária.',
 
     project2_type: 'Art Game · Criatividade Computacional',
-
-    project2_text: 'Um art game em que o movimento pelo ambiente virtual contribui implicitamente para a emergência de estruturas musicais.',
+    project2_text: 'Um art game em que o movimento do jogador por um ambiente virtual contribui para a emergência da música.',
 
     project3_type: 'RV · Sistema Musical Interativo',
-
-    project3_text: 'Um instrumento musical em realidade virtual que usa interação visual e meta-interatividade para apoiar não especialistas na criação de peças musicais coerentes.',
+    project3_text: 'Um instrumento musical em realidade virtual que utiliza o mapeamento de cores para tons musicais e meta-interatividade para ajudar não especialistas a criar progressões harmônicas relaxantes.',
 
     read_paper: 'Ler artigo ↗',
     view_game: 'Ver jogo ↗',
