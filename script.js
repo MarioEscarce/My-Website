@@ -72,7 +72,7 @@ const translations = {
 
     project3_type: 'VR · Interactive Musical System',
 
-    project3_text: 'A virtual-reality musical instrument that uses visual interaction and meta-interactivity to support non-experts in creating coherent musical pieces.',
+    project3_text: 'A virtual-reality musical instrument that uses color-to-tone mapping and meta-interactivity to help non-experts create relaxing harmonic progressions.',
 
     read_paper: 'Read paper ↗',
     view_game: 'View game ↗',
