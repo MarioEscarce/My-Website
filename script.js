@@ -33,7 +33,7 @@ const translations = {
     download_cv: 'View Short CV ↗',
     your_photo: 'your<br>photo',
 
-    currently: 'Currently',
+    currently: 'Areas',
     position_placeholder: 'Games · HCI · Digital Arts',
 
     based_in: 'Based in',
