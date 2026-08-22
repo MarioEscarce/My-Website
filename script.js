@@ -75,7 +75,7 @@ const translations = {
     project3_text: 'A virtual-reality musical instrument that uses a color-to-tone translation and meta-interactivity to help non-experts create relaxing harmonic progressions.',
 
     read_paper: 'Read paper ↗',
-    view_game: 'View game ↗',
+    view_game: 'Play game ↗',
     watch_video: 'Watch video ↗',
 
     publications_label: 'Selected publications',
@@ -151,7 +151,7 @@ const translations = {
     project3_text: 'Um instrumento musical em realidade virtual que utiliza o mapeamento de cores para tons musicais e meta-interatividade para ajudar não especialistas a criar progressões harmônicas relaxantes.',
 
     read_paper: 'Ler artigo ↗',
-    view_game: 'Ver jogo ↗',
+    view_game: 'Jogar ↗',
     watch_video: 'Assistir vídeo ↗',
 
     publications_label: 'Publicações selecionadas',
