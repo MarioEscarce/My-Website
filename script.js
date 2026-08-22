@@ -60,7 +60,7 @@ const translations = {
 
     projects_title: 'Research artifacts, games, and interactive experiments.',
 
-    project1_type: 'Serious Games · HCI · Discourse Analysis',
+    project1_type: 'Serious Games · HCI · Collaborative Learning',
 
     project1_title: 'Discourse Analysis',
 
