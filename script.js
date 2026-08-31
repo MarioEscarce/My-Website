@@ -117,7 +117,7 @@ const translations = {
 
     hero_title: 'Estudo como jogos e sistemas interativos podem apoiar <em>a colaboração, a aprendizagem e a tomada de decisões em conjunto.</em>',
 
-    hero_text: 'Pesquiso e desenvolvo jogos e sistemas interativos, explorando áreas como IHC, criatividade computacional e artes digitais. Minha pesquisa inclui desde jogos sérios até cocriação musical, e no desenvolvimento de jogos tenho um interesse especial por arte 3D.',
+    hero_text: 'Pesquiso e desenvolvo jogos e sistemas interativos, explorando as áreas de IHC, criatividade computacional e artes digitais. Minha pesquisa inclui desde jogos sérios até cocriação musical, e no desenvolvimento de jogos tenho um interesse especial por arte 3D.',
     explore_research: 'Ver minha pesquisa',
     currently: 'Áreas',
     position_placeholder: 'Jogos · IHC · Artes Digitais',
