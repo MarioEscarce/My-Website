@@ -47,15 +47,25 @@ const translations = {
     research_label: 'Research',
     research_title: 'Research interests',
 
-    research_a_title: 'Interactive media & computational creativity',
-    research_a_text: 'How interactive, immersive, and generative systems create new relationships between human action, audiovisual expression, and computational processes.',
+    // research_a_title: 'Interactive media & computational creativity',
+    // research_a_text: 'How interactive, immersive, and generative systems create new relationships between human action, audiovisual expression, and computational processes.',
 
-    research_b_title: 'Games, learning & societal challenges',
-    research_b_text: 'How games and interactive experiences can support learning, reflection, preparedness, and engagement with complex societal challenges.',
+    // research_b_title: 'Games, learning & societal challenges',
+    // research_b_text: 'How games and interactive experiences can support learning, reflection, preparedness, and engagement with complex societal challenges.',
 
-    research_c_title: 'Collaborative interaction & reasoning',
-    research_c_text: 'How the design of interactive systems shapes communication, coordination, negotiation, and collective decision-making.',
+    // research_c_title: 'Collaborative interaction & reasoning',
+    // research_c_text: 'How the design of interactive systems shapes communication, coordination, negotiation, and collective decision-making.',
 
+    research_a_title: 'HCI, interactive media & computational creativity',
+    research_a_text: 'Human-computer interaction and interactive systems, with interests in computational creativity, music co-creation, generative systems, and audiovisual interaction.',
+
+    research_b_title: 'Games, game design & learning',
+    research_b_text: 'Research on games and game design, including serious games, game-based learning, and the use of games to support learning, reflection, and engagement.',
+
+    research_c_title: 'Collaborative interaction & decision-making',
+    research_c_text: 'How the design of interactive systems shapes communication, collaboration, negotiation, and shared decision-making.',
+    
+    
     projects_label: 'Selected projects',
 
     projects_title: 'Research artifacts, games, and interactive experiments.',
