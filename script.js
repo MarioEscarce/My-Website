@@ -29,7 +29,7 @@ const translations = {
     
     hero_text: 'I research and develop games and interactive systems, with a background in HCI, computational creativity, and digital arts. My research ranges from serious games to music co-creation, while my game development work has a strong focus on 3D art.',
     
-    explore_research: 'Explore my research',
+    explore_research: 'See my research',
     download_cv: 'View Short CV ↗',
     your_photo: 'your<br>photo',
 
@@ -118,6 +118,7 @@ const translations = {
     hero_title: 'Estudo como jogos e sistemas interativos podem apoiar <em>a colaboração, a aprendizagem e a tomada de decisões em conjunto.</em>',
 
     hero_text: 'Pesquiso e desenvolvo jogos e sistemas interativos, explorando áreas como IHC, criatividade computacional e artes digitais. Minha pesquisa inclui desde jogos sérios até cocriação musical, e no desenvolvimento de jogos tenho um interesse especial por arte 3D.',
+    explore_research: 'Ver minha pesquisa',
     currently: 'Áreas',
     position_placeholder: 'Jogos · IHC · Artes Digitais',
 
