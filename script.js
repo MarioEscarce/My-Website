@@ -27,7 +27,7 @@ const translations = {
 
     hero_title: 'I study how games and interactive systems can help people <em>collaborate, learn, and make decisions together.</em>',
     
-    hero_text: 'I research and develop games and interactive systems. I have a background in HCI, computational creativity, and digital arts, with research ranging from serious games to music co-creation and game development with a strong focus on 3D art.',
+    hero_text: 'I research and develop games and interactive systems, exploring them through HCI, computational creativity, and digital arts. My research ranges from serious games to music co-creation, while my game development work has a strong focus on 3D art.',
     
     explore_research: 'See my research',
     download_cv: 'View Short CV ↗',
