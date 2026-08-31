@@ -135,14 +135,23 @@ const translations = {
     research_label: 'Pesquisa',
     research_title: 'Interesses de pesquisa',
 
-    research_a_title: 'Mídia interativa e criatividade computacional',
-    research_a_text: 'Como sistemas interativos, imersivos e generativos criam novas relações entre ação humana, expressão audiovisual e processos computacionais.',
+    // research_a_title: 'Mídia interativa e criatividade computacional',
+    // research_a_text: 'Como sistemas interativos, imersivos e generativos criam novas relações entre ação humana, expressão audiovisual e processos computacionais.',
 
-    research_b_title: 'Jogos, aprendizagem e desafios sociais',
-    research_b_text: 'Como jogos e experiências interativas podem apoiar aprendizagem, reflexão, preparação e engajamento com desafios sociais complexos.',
+    // research_b_title: 'Jogos, aprendizagem e desafios sociais',
+    // research_b_text: 'Como jogos e experiências interativas podem apoiar aprendizagem, reflexão, preparação e engajamento com desafios sociais complexos.',
 
-    research_c_title: 'Interação e raciocínio colaborativos',
-    research_c_text: 'Como o design de sistemas interativos molda comunicação, coordenação, negociação e tomada de decisão coletiva.',
+    // research_c_title: 'Interação e raciocínio colaborativos',
+    // research_c_text: 'Como o design de sistemas interativos molda comunicação, coordenação, negociação e tomada de decisão coletiva.',
+
+    research_a_title: 'IHC, mídia interativa e criatividade computacional',
+    research_a_text: 'Interação humano-computador e sistemas interativos, com interesse em criatividade computacional, cocriação musical, sistemas generativos e interação audiovisual.',
+
+    research_b_title: 'Jogos, game design e aprendizagem',
+    research_b_text: 'Pesquisa sobre jogos e game design, incluindo jogos sérios, aprendizagem baseada em jogos e o uso de jogos para apoiar aprendizagem, reflexão e engajamento com desafios sociais.',
+
+    research_c_title: 'Interação colaborativa e tomada de decisão',
+    research_c_text: 'Como o design de sistemas interativos influencia a comunicação, colaboração, negociação e tomada de decisão compartilhada.',
 
     projects_label: 'Projetos selecionados',
 
