@@ -27,7 +27,7 @@ const translations = {
 
     hero_title: 'I study how games and interactive systems can help people <em>collaborate, learn, and make decisions together.</em>',
     
-    hero_text: 'Hi! I\'m Mario, a researcher and game developer working in games, HCI, computational creativity, and digital arts. My work includes serious games, interactive systems, music co-creation, and 3D art and development for games.',
+    hero_text: 'Hi! I\'m Mario. I research and develop games and interactive systems, with a background in HCI, computational creativity, and digital arts. My research ranges from serious games to music co-creation, while my game development work has a strong focus on 3D art.',
     
     explore_research: 'Explore my research',
     download_cv: 'View Short CV ↗',
@@ -117,9 +117,7 @@ const translations = {
 
     hero_title: 'Estudo como jogos e sistemas interativos podem apoiar <em>a colaboração, a aprendizagem e a tomada de decisões em conjunto.</em>',
 
-    hero_text: 'Olá! Meu nome é Mário. Sou pesquisador nas áreas de games, IHC, criatividade computacional e artes digitais. Também sou desenvolvedor de jogos, com foco na criação de arte 3D, incluindo modelagem, rigging e animação. Tenho grande interesse em cocriação musical e na geração dinâmica de assets para jogos e experiências interativas, além do diálogo contínuo entre pessoas e sistemas interativos e de como esses sistemas podem estimular criatividade, aprendizagem, colaboração e raciocínio coletivo.',
-
-    explore_research: 'Conheça minha pesquisa',
+   hero_text: 'Olá! Meu nome é Mario. Pesquiso e desenvolvo jogos e sistemas interativos, com uma trajetória em IHC, criatividade computacional e artes digitais. Minha pesquisa vai de jogos sérios à cocriação musical, enquanto meu trabalho com desenvolvimento de jogos tem forte foco em arte 3D.',
     download_cv: 'Ver CV curto ↗',
     your_photo: 'sua<br>foto',
 
