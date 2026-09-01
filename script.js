@@ -56,11 +56,11 @@ const translations = {
     // research_c_title: 'Collaborative interaction & reasoning',
     // research_c_text: 'How the design of interactive systems shapes communication, coordination, negotiation, and collective decision-making.',
 
-    research_a_title: 'HCI, interactive media & computational creativity',
-    research_a_text: 'Human-computer interaction and interactive systems, with interests in computational creativity, music co-creation, generative systems, and audiovisual interaction.',
+    research_a_title: 'Games, game design & learning',
+    research_a_text: 'Research on games and game design, including serious games, game-based learning, and the use of games to support learning, reflection, and engagement.',
 
-    research_b_title: 'Games, game design & learning',
-    research_b_text: 'Research on games and game design, including serious games, game-based learning, and the use of games to support learning, reflection, and engagement.',
+    research_b_title: 'HCI, interactive media & computational creativity',
+    research_b_text: 'Human-computer interaction and interactive systems, with interests in computational creativity, music co-creation, generative systems, and experiences that explore sound as a primary form of interaction and expression.',
 
     research_c_title: 'Collaborative interaction & decision-making',
     research_c_text: 'How the design of interactive systems shapes communication, collaboration, negotiation, and shared decision-making.',
@@ -142,11 +142,11 @@ const translations = {
     // research_c_title: 'Interação e raciocínio colaborativos',
     // research_c_text: 'Como o design de sistemas interativos molda comunicação, coordenação, negociação e tomada de decisão coletiva.',
 
-    research_a_title: 'IHC, mídia interativa e criatividade computacional',
-    research_a_text: 'Interação humano-computador e sistemas interativos, com interesse em criatividade computacional, cocriação musical, sistemas generativos e interação audiovisual.',
+    research_a_title: 'Jogos, game design e aprendizagem',
+    research_a_text: 'Pesquisa sobre jogos e game design, incluindo jogos sérios, aprendizagem baseada em jogos e o uso de jogos para apoiar aprendizagem, reflexão e engajamento.',
 
-    research_b_title: 'Jogos, game design e aprendizagem',
-    research_b_text: 'Pesquisa sobre jogos e game design, incluindo jogos sérios, aprendizagem baseada em jogos e o uso de jogos para apoiar aprendizagem, reflexão e engajamento com desafios sociais.',
+    research_b_title: 'IHC, mídia interativa e criatividade computacional',
+    research_b_text: 'Interação humano-computador e sistemas interativos, com interesse em criatividade computacional, cocriação musical, sistemas generativos e experiências que exploram o som como uma forma central de interação e expressão.',
 
     research_c_title: 'Interação colaborativa e tomada de decisão',
     research_c_text: 'Como o design de sistemas interativos influencia a comunicação, colaboração, negociação e tomada de decisão compartilhada.',
