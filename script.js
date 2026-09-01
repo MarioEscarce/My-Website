@@ -82,7 +82,7 @@ const translations = {
 
     project3_type: 'VR · Interactive Musical System',
 
-    project3_text: 'A virtual-reality musical instrument that uses a color-to-tone translation and meta-interactivity to help non-experts create relaxing harmonic progressions.',
+    project3_text: 'A virtual-reality musical instrument that uses color-to-tone translation and meta-interactivity, allowing users to generate music through visual elements and create relaxing harmonic progressions without requiring musical expertise.',
 
     read_paper: 'Read paper ↗',
     view_game: 'Play game ↗',
@@ -163,8 +163,7 @@ const translations = {
     project2_text: 'Um art game em que o movimento do jogador por um ambiente virtual contribui para a emergência da música.',
 
     project3_type: 'RV · Sistema Musical Interativo',
-    project3_text: 'Um instrumento musical em realidade virtual que utiliza o mapeamento de cores para tons musicais e meta-interatividade para ajudar não especialistas a criar progressões harmônicas relaxantes.',
-
+    project3_text: 'Um instrumento musical em realidade virtual que utiliza o mapeamento de cores para tons musicais e meta-interatividade, permitindo aos usuários gerar música por meio de elementos visuais e criar progressões harmônicas relaxantes sem exigir conhecimento musical prévio.',
     read_paper: 'Ler artigo ↗',
     view_game: 'Jogar ↗',
     watch_video: 'Assistir vídeo ↗',
