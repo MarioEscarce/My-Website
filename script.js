@@ -78,7 +78,7 @@ const translations = {
 
     project2_type: 'Art Game · Computational Creativity',
 
-    project2_text: 'An art game in which the player\'s movement through a virtual environment contributes to the emergence of music.',
+    project2_text: 'An art game in which exploring and interacting with a virtual environment contributes to the emergence of music, allowing players to implicitly collaborate in shaping a shared musical experience.',
 
     project3_type: 'VR · Interactive Musical System',
 
@@ -160,7 +160,7 @@ const translations = {
     project1_text: 'Pesquisa sobre como discurso, negociação e tomada de decisão compartilhada emergem em jogos sérios voltados à preparação para incêndios florestais e à resiliência comunitária.',
 
     project2_type: 'Art Game · Criatividade Computacional',
-    project2_text: 'Um art game em que o movimento do jogador por um ambiente virtual contribui para a emergência da música.',
+   project2_text: 'Um art game em que explorar e interagir com um ambiente virtual contribui para a emergência da música, permitindo que os jogadores colaborem de forma implícita na construção de uma experiência musical compartilhada.',
 
     project3_type: 'RV · Sistema Musical Interativo',
     project3_text: 'Um instrumento musical em realidade virtual que utiliza o mapeamento de cores para tons musicais e meta-interatividade, permitindo aos usuários gerar música por meio de elementos visuais e criar progressões harmônicas relaxantes sem exigir conhecimento musical prévio.',
