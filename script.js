@@ -209,6 +209,14 @@ function applyLanguage(lang) {
     lattesLink.hidden = lang !== 'pt';
   }
 
+  const cvLink = document.querySelector('.hero-actions .button.ghost');
+
+  if (cvLink) {
+    cvLink.href = lang === 'pt'
+      ? 'cv-pt.html'
+      : 'cv.html';
+  }
+
 
   document.querySelectorAll('[data-i18n]').forEach((el) => {
 
