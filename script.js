@@ -29,8 +29,8 @@ const translations = {
     
     hero_text: 'I research and develop games and interactive systems, exploring them through HCI, computational creativity, and digital arts. My research ranges from serious games to music co-creation, while my game development work has a strong focus on 3D art.',
     
-    explore_research: 'See my research',
-    download_cv: 'View Short CV ↗',
+    explore_research: 'View my research',
+    download_cv: 'See Short CV ↗',
     your_photo: 'your<br>photo',
 
     currently: 'Areas',
@@ -118,7 +118,10 @@ const translations = {
     hero_title: 'Estudo como jogos e sistemas interativos podem apoiar <em>a colaboração, a aprendizagem e a tomada de decisões em conjunto.</em>',
 
     hero_text: 'Pesquiso e desenvolvo jogos e sistemas interativos, explorando as áreas de IHC, criatividade computacional e artes digitais. Minha pesquisa inclui desde jogos sérios até cocriação musical, e no desenvolvimento de jogos tenho um interesse especial por arte 3D.',
+
     explore_research: 'Ver minha pesquisa',
+    download_cv: 'Ver CV resumido ↗',
+
     currently: 'Áreas',
     position_placeholder: 'Jogos · IHC · Artes Digitais',
 
@@ -160,10 +163,11 @@ const translations = {
     project1_text: 'Pesquisa sobre como discurso, negociação e tomada de decisão compartilhada emergem em jogos sérios voltados à preparação para incêndios florestais e à resiliência comunitária.',
 
     project2_type: 'Art Game · Criatividade Computacional',
-   project2_text: 'Um art game em que explorar e interagir com um ambiente virtual contribui para a emergência da música, permitindo que os jogadores colaborem de forma implícita na construção de uma experiência musical compartilhada.',
+    project2_text: 'Um art game em que explorar e interagir com um ambiente virtual contribui para a emergência da música, permitindo que os jogadores colaborem de forma implícita na construção de uma experiência musical compartilhada.',
 
     project3_type: 'RV · Sistema Musical Interativo',
     project3_text: 'Um instrumento musical em realidade virtual que utiliza o mapeamento de cores para tons musicais e meta-interatividade, permitindo aos usuários gerar música por meio de elementos visuais e criar progressões harmônicas relaxantes sem exigir conhecimento musical prévio.',
+
     read_paper: 'Ler artigo ↗',
     view_game: 'Jogar ↗',
     watch_video: 'Assistir vídeo ↗',
@@ -204,6 +208,7 @@ function applyLanguage(lang) {
   if (lattesLink) {
     lattesLink.hidden = lang !== 'pt';
   }
+
 
   document.querySelectorAll('[data-i18n]').forEach((el) => {
 
