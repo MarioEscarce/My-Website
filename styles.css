@@ -905,3 +905,32 @@ body .site-header .nav-links a {
     grid-template-columns: 1fr;
   }
 }
+
+/* v26 — Bluesky contact link */
+.contact-bluesky {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: .95rem;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.contact-bluesky img {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  display: block;
+}
+
+.contact-bluesky span {
+  border-bottom: 1px solid rgba(29, 33, 31, .25);
+  line-height: 1.4;
+}
+
+.contact-bluesky:hover {
+  color: var(--ink);
+}
