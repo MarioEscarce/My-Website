@@ -908,29 +908,35 @@ body .site-header .nav-links a {
 
 /* v26 — Bluesky contact link */
 .contact-bluesky {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
   width: fit-content;
   margin-top: 12px;
-  color: var(--muted);
-  font-size: .95rem;
+  color: var(--accent);
+  font-size: .92rem;
   text-decoration: none;
-  transition: color .2s ease;
+  transition: opacity .2s ease, transform .2s ease;
 }
 
-.contact-bluesky img {
-  width: 18px;
-  height: 18px;
-  flex: 0 0 18px;
-  display: block;
+.contact-bluesky svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+  flex: 0 0 17px;
 }
 
-.contact-bluesky span {
-  border-bottom: 1px solid rgba(29, 33, 31, .25);
+.contact-bluesky span:not(.contact-bluesky-arrow) {
+  border-bottom: 1px solid rgba(49, 79, 70, .28);
   line-height: 1.4;
 }
 
+.contact-bluesky-arrow {
+  font-size: .85rem;
+  opacity: .65;
+}
+
 .contact-bluesky:hover {
-  color: var(--ink);
+  opacity: .75;
+  transform: translateY(-1px);
 }
