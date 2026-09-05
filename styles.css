@@ -906,9 +906,9 @@ body .site-header .nav-links a {
   }
 }
 
-/* v26 — Bluesky contact link */
+/* Bluesky contact */
 .contact-bluesky {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 7px;
   width: fit-content;
@@ -916,17 +916,17 @@ body .site-header .nav-links a {
   color: var(--accent);
   font-size: .92rem;
   text-decoration: none;
-  transition: opacity .2s ease, transform .2s ease;
 }
 
-.contact-bluesky svg {
-  width: 17px;
-  height: 17px;
+.bluesky-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
   fill: currentColor;
-  flex: 0 0 17px;
+  flex-shrink: 0;
 }
 
-.contact-bluesky span:not(.contact-bluesky-arrow) {
+.contact-bluesky > span:first-of-type {
   border-bottom: 1px solid rgba(49, 79, 70, .28);
   line-height: 1.4;
 }
@@ -938,5 +938,4 @@ body .site-header .nav-links a {
 
 .contact-bluesky:hover {
   opacity: .75;
-  transform: translateY(-1px);
 }
